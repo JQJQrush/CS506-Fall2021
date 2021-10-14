@@ -11,7 +11,7 @@ def point_avg(points):
     
     Returns a new point which is the center of all the points.
     """
-    raise NotImplementedError()
+
 
 
 def update_centers(dataset, assignments):
@@ -21,7 +21,7 @@ def update_centers(dataset, assignments):
     Compute the center for each of the assigned groups.
     Return `k` centers in a list
     """
-    raise NotImplementedError()
+
 
 def assign_points(data_points, centers):
     """
@@ -43,20 +43,20 @@ def distance(a, b):
     """
     Returns the Euclidean distance between a and b
     """
-    raise NotImplementedError()
+
 
 def distance_squared(a, b):
-    raise NotImplementedError()
+
 
 def generate_k(dataset, k):
     """
     Given `data_set`, which is an array of arrays,
     return a random set of k points from the data_set
     """
-    raise NotImplementedError()
+
 
 def cost_function(clustering):
-    raise NotImplementedError()
+ 
 
 
 def generate_k_pp(dataset, k):
@@ -66,7 +66,7 @@ def generate_k_pp(dataset, k):
     where points are picked with a probability proportional
     to their distance as per kmeans pp
     """
-    raise NotImplementedError()
+
 
 
 def _do_lloyds_algo(dataset, k_points):
